@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BILMZA - DevOps Engineer, Network Engineer, and Data Analyst Portfolio">
+        <meta name="keywords" content="DevOps Engineer, Network Engineer, Data Analyst, Full Stack Developer, BILMZA">
+        <meta name="author" content="BILMZA">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="BILMZA - DevOps & Network Engineer Portfolio">
+        <meta property="og:description" content="Portfolio showcasing expertise in DevOps, Network Engineering, and Data Analysis">
+        <meta property="og:type" content="website">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="VERCEL.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+        <title>BILMZA Portfolio</title>
+        <link rel="icon" href="/public/icon.jpg">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+<body>
+
+    
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <div class="header-left">
+                <h1 class="main-title">BILMZA</h1>
+                <p class="title-caption">DevOps Engineer | Network Engineer | Data Analyst</p>
+            </div>
+            <div class="header-right">
+                <img src="/public/myself.jpg" 
+                     alt="BILMZA Profile Picture" 
+                     class="header-img" 
+                     width="200" 
+                     height="200" 
+                     loading="lazy"
+                     fetchpriority="high">
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-container" role="navigation" aria-label="Main navigation">
+        <div class="nav-wrapper">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" role="main">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>Pursuing a Bachelor's degree in Computer Science (BSIT) with a strong interest in DevOps, Networking, and Data Analysis.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-navigation">
+                <button class="nav-btn prev-btn" aria-label="Previous skill">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <i class="fas fa-cloud skill-icon"></i>
+                        <h3>DevOps</h3>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%">
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Docker & Kubernetes</li>
+                            <li>CI/CD Pipelines</li>
+                            <li>AWS & Azure</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-network-wired skill-icon"></i>
+                        <h3>Network Engineering</h3>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%">
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Cisco Networking</li>
+                            <li>Network Security</li>
+                            <li>Routing & Switching</li>
+                        </ul>
+                    </div>
+
+                    <!-- Add similar cards for other skills -->
+                </div>
+
+                <button class="nav-btn next-btn" aria-label="Next skill">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-navigation">
+                <button class="nav-btn prev-btn" aria-label="Previous project">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="projects-slider">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3 class="project-title">Real Time Data Analysis</h3>
+                                <p class="project-description">This project was built using SQL, Python, and PowerBI.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">SQL</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">PowerBI</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-image-wrapper">
+                                <img src="/public/Realtime.jpg" 
+                                     alt="Real Time Data Analysis Project" 
+                                     class="project-image"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/BILMZA/DATA-ANALYSIS" 
+                                   class="project-btn"
+                                   target="_blank" 
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more project cards here -->
+                </div>
+
+                <button class="nav-btn next-btn" aria-label="Next project">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer" role="contentinfo">
+        <div class="container footer-content">
+            <div class="footer-row">
+                <!-- Left Section -->
+                <div class="footer-column">
+                    <h2 class="footer-heading">BILMZA</h2>
+                    <p class="footer-text">DevOps Engineer | Network Engineer | Data Analyst</p>
+                </div>
+                
+                <!-- Middle Section -->
+                <div class="footer-column">
+                    <h2 class="footer-heading">Quick Links</h2>
+                    <nav class="footer-nav">
+                        <a href="#skills">Skills</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                    </nav>
+                </div>
+
+                <!-- Right Section -->
+                <div class="footer-column">
+                    <h2 class="footer-heading text-center">Connect with me</h2>
+                    <div class="social-links-center">
+                        <a href="https://www.linkedin.com/in/bilalhamza11/" 
+                           class="social-link"
+                           aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/BILMZA" 
+                           class="social-link"
+                           aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+          
+            </div>
+        </div>
+    </footer>
+    <script src="VERCEL.JS"></script>
+</body>
+</html>
